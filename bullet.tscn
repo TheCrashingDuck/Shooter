@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://7wue6jkvgqxe"]
+
+[ext_resource type="Texture2D" uid="uid://4oujecaxnpgj" path="res://bullet.png" id="1_v7oki"]
+
+[node name="Bullet" type="Node2D" unique_id=1018216787]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1912499781]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_v7oki")

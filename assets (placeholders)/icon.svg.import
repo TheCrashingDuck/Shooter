@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nufvxgia4wc4"
-path="res://.godot/imported/test flip.png-22bcaa964c0010ae7ae3962e8f14fcd4.ctex"
+uid="uid://cjvy10ww4fyob"
+path="res://.godot/imported/icon.svg-531021b3a7f4938722e0cdf7c2d09f07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://test flip.png"
-dest_files=["res://.godot/imported/test flip.png-22bcaa964c0010ae7ae3962e8f14fcd4.ctex"]
+source_file="res://assets (placeholders)/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-531021b3a7f4938722e0cdf7c2d09f07.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

@@ -1,10 +1,8 @@
 extends Node2D
 
 
-const BULLET = preload("res://bullet.tscn")
+const BULLET = preload("res://scens/bullet.tscn")
  
- 
-@onready var muzzle: Marker2D = $Marker2D
  
  
 func _process(_delta: float) -> void:
@@ -19,6 +17,6 @@ func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("fire"):
 		var bullet_instance = BULLET.instantiate()
 		get_tree().root.add_child(bullet_instance)
-		bullet_instance.global_position = muzzle.global_position
+		bullet_instance.global_position = global_position
 		bullet_instance.rotation = rotation
  
